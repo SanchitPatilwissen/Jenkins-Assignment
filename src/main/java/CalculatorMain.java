@@ -1,16 +1,19 @@
 class Calculator
 {
-	public void add(int a, int b)
+	public int add(int a, int b)
 	{
 		System.out.println("Addition : "+(a+b));
+		return (a+b);
 	}
-	public void sub(int a, int b)
+	public int sub(int a, int b)
 	{
 		System.out.println("Subtract : "+(a-b));
+		return (a-b);
 	}
-	public void mul(int a, int b)
+	public int mul(int a, int b)
 	{
 		System.out.println("Multiply : "+(a * b));
+		return (a*b);
 	}
 }
 public class CalculatorMain
